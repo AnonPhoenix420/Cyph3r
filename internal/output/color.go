@@ -15,3 +15,18 @@ func BlueText(s string) string {
 func RedText(s string) string {
 	return fmt.Sprintf("%s%s%s", Red, s, Reset)
 }
+
+func Banner() {
+	fmt.Println(Blue + `
+ ██████╗██╗   ██╗██████╗ ██╗  ██╗██████╗ ██████╗ 
+██╔════╝╚██╗ ██╔╝██╔══██╗██║  ██║██╔══██╗██╔══██╗
+██║      ╚████╔╝ ██████╔╝███████║██████╔╝██████╔╝
+██║       ╚██╔╝  ██╔═══╝ ██╔══██║██╔═══╝ ██╔══██╗
+╚██████╗   ██║   ██║     ██║  ██║██║     ██║  ██║
+ ╚═════╝   ╚═╝   ╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝
+` + Reset)
+
+	fmt.Println("        CYPH3R — Network Diagnostics Utility")
+	fmt.Println("     ⚠ Educational & Professional Use Only ⚠")
+	fmt.Println()
+}
