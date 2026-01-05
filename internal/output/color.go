@@ -16,6 +16,16 @@ func RedText(s string) string {
 	return fmt.Sprintf("%s%s%s", Red, s, Reset)
 }
 
+// Status helpers used by main.go
+func Up(msg string) {
+	fmt.Printf("%s[UP]%s %s\n", Blue, Reset, msg)
+}
+
+func Down(msg string) {
+	fmt.Printf("%s[DOWN]%s %s\n", Red, Reset, msg)
+}
+
+// Tool banner
 func Banner() {
 	fmt.Println(Blue + `
  ██████╗██╗   ██╗██████╗ ██╗  ██╗██████╗ ██████╗ 
