@@ -127,7 +127,7 @@ sudo install -m 755 cyph3r /usr/local/bin/cyph3r
 ./cyph3r --target localhost --port 80 --proto tcp
 ```
 
-###GeoIp Lookup Localhost/IP
+### GeoIp Lookup Localhost/IP
 ```
 ./cyph3r --target example.com --geoip
 ```
