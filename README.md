@@ -98,7 +98,7 @@ git clone https://github.com/AnonPhoenix420/Cyph3r
 cd cyph3r
 ```
 ```
-git cole
+git clone
 https://github.com/nyaruka/phonenumbers
 ```
 ---
