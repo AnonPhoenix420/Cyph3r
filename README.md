@@ -46,10 +46,29 @@ Runs cleanly on:
 
 ---
 
+🚀 Usage & Help
+
+To see all available options and usage info, run
+```
+./cyph3r --help
+```
+# or
+```
+./cyph3r -h
+```
+# or just
+```
+./cyph3r
+```
+---
+
 ## 📦 Requirements
 
 * Go **1.23.0**
 * git
+
+---
+
 
 ### Supported Platforms
 
