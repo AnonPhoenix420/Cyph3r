@@ -1,16 +1,15 @@
-output.Banner()
-
-
-fmt.Println("\033[1;35mCOLOR TEST\033[0m")
-
 
 package main
+
+output.Banner()
+fmt.Println("\033[1;35mCOLOR TEST\033[0m")
 
 import (
 	"encoding/json"
 	"flag"
 	"fmt"
 	"net"
+	"os"
 	"net/http"
 	"strings"
 	"time"
